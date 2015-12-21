@@ -3,13 +3,22 @@ PrimaryLoot =
 {
 	_return = [
 	
-	"Exile_Item_InstaDoc",
-	"Exile_Item_Catfood",
-	"Exile_Item_PlasticBottleFreshWater",
-	"Exile_Item_Matches",
-	"Exile_Item_DuctTape",
-	"Exile_Item_CookingPot",
-	"16Rnd_9x21_Mag"
+		"FoodBioMeat",
+		"FoodMeeps",
+		"FoodSnooter",
+		"FoodWalkNSons",
+		"sardines_epoch",
+		"meatballs_epoch",
+		"scam_epoch",
+		"sweetcorn_epoch",
+		"honey_epoch",
+		"ItemSeaBass",
+		"WhiskeyNoodle",
+		"ItemSodaOrangeSherbet",
+		"ItemSodaPurple",
+		"ItemSodaMocha",
+		"ItemSodaBurst",
+		"ItemSodaRbull"
 	
 	] call BIS_fnc_selectRandom;
 	_return;
@@ -20,8 +29,22 @@ SecondaryLoot =
 {
 	_return = [
 	
-	"Exile_Item_InstaDoc",
-	"16Rnd_9x21_Mag"
+		"FoodBioMeat",
+		"FoodMeeps",
+		"FoodSnooter",
+		"FoodWalkNSons",
+		"sardines_epoch",
+		"meatballs_epoch",
+		"scam_epoch",
+		"sweetcorn_epoch",
+		"honey_epoch",
+		"ItemSeaBass",
+		"WhiskeyNoodle",
+		"ItemSodaOrangeSherbet",
+		"ItemSodaPurple",
+		"ItemSodaMocha",
+		"ItemSodaBurst",
+		"ItemSodaRbull"
 	
 	] call BIS_fnc_selectRandom;
 	_return;
@@ -33,7 +56,22 @@ HarassingLoot =
 {
 	_return = [
 	
-	"Exile_Item_PlasticBottleEmpty"
+		"FoodBioMeat",
+		"FoodMeeps",
+		"FoodSnooter",
+		"FoodWalkNSons",
+		"sardines_epoch",
+		"meatballs_epoch",
+		"scam_epoch",
+		"sweetcorn_epoch",
+		"honey_epoch",
+		"ItemSeaBass",
+		"WhiskeyNoodle",
+		"ItemSodaOrangeSherbet",
+		"ItemSodaPurple",
+		"ItemSodaMocha",
+		"ItemSodaBurst",
+		"ItemSodaRbull"
 	
 	] call BIS_fnc_selectRandom;
 	_return;
