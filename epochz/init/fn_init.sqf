@@ -1,4 +1,4 @@
-// ExileZ 2.0 by Patrix87 of http:\\multi-jeux.quebec //
+// EpochZ by Patrix87 of http:\\multi-jeux.quebec //
 
 //Global Settings
 ProtectSafezones         = true;      // if set to true a trigger will kill all "CIV" units within the SafeZonePositions defined below
@@ -98,7 +98,7 @@ UseHC           = false;       // set to true if running Headless Client
 /* DON'T EDIT BELOW ADVANCED USERS ONLY */
 //////////////////////////////////////////
 sleep 1;
-diag_log "\\\ --- Starting ExileZ 2.0 --- ///";
+diag_log "\\\ --- Starting EpochZ --- ///";
 
 private["_return","_result","_count"];
 
@@ -108,14 +108,14 @@ private["_return","_result","_count"];
 #include "ZClasses.sqf";
 
 //compile code
-CreateTriggers = compile preprocessFile "exilez\init\code\CreateTriggers.sqf";
-ZombieSpawner = compile preprocessFile "exilez\init\code\ZombieSpawner.sqf";
-SecCreateTriggers = compile preprocessFile "exilez\init\code\SecCreateTriggers.sqf";
-SecZombieSpawner = compile preprocessFile "exilez\init\code\SecZombieSpawner.sqf";
-HarassingZombies = compile preprocessFile "exilez\init\code\HarassingZombies.sqf";
-HarassingZombiesSpawn = compile preprocessFile "exilez\init\code\HarassingZombiesSpawn.sqf";
-//ZMPKilled = compile preprocessFile "exilez\init\code\MPKilled.sqf";
-Safezone = compile preprocessFile "exilez\init\code\Safezone.sqf";
+CreateTriggers = compile preprocessFile "epochz\init\code\CreateTriggers.sqf";
+ZombieSpawner = compile preprocessFile "epochz\init\code\ZombieSpawner.sqf";
+SecCreateTriggers = compile preprocessFile "epochz\init\code\SecCreateTriggers.sqf";
+SecZombieSpawner = compile preprocessFile "epochz\init\code\SecZombieSpawner.sqf";
+HarassingZombies = compile preprocessFile "epochz\init\code\HarassingZombies.sqf";
+HarassingZombiesSpawn = compile preprocessFile "epochz\init\code\HarassingZombiesSpawn.sqf";
+//ZMPKilled = compile preprocessFile "epochz\init\code\MPKilled.sqf";
+Safezone = compile preprocessFile "epochz\init\code\Safezone.sqf";
 
 //Create Main Triggers
 if (UseSpawners) then
@@ -147,4 +147,4 @@ if (UseHarassingZombies) then {
 };
 sleep 1;
 
-diag_log "/// --- ExileZ 2.0 Started --- \\\";
+diag_log "/// --- EpochZ 2.0 Started --- \\\";
